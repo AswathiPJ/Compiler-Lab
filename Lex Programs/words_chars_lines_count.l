@@ -5,6 +5,7 @@
 %%
 [a-zA-Z]* {words++; chars+=strlen(yytext);}
 \n lines++;
+[ ]
 . chars++;
 %%
 void main()
