@@ -1,7 +1,5 @@
 #include<stdio.h>
-
 #include<string.h>
-
 #include<stdlib.h>
 
 int i = 1, j = 0, no = 0, tmpch = 90;
@@ -16,7 +14,7 @@ struct exp {
 }
 k[15];
 void main() {
-  printf("\t\t INTERMEDIATE CODEGENERATION\n\n");
+  printf("\t\t INTERMEDIATE CODE GENERATION\n\n");
   printf("Enter the Expression :");
   scanf("%s", str);
   printf("The intermediate code:\t\tExpression\n");
